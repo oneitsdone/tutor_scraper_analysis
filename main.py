@@ -15,7 +15,7 @@ def main():
                          title="Tutor Scraper",
                          icon=":material/data_exploration:")
     
-    pg = st.navigation(pages=[about_website, analytics_page, webscraper])
+    pg = st.navigation(pages=[about_website, webscraper, analytics_page])
     pg.run()
 
 main()
